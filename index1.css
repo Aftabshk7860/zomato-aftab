@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(Zomato-BG.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav #left span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+#right ul li {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(60vh - 72px);
+}
+
+#main #logo {
+    margin-top: 20px;
+}
+
+#main #logo img {
+    width: 300px;
+}
+
+#main #tag {
+    margin-top: 30px;
+}
+
+#main #tag h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#seacrhcontainer {
+    background-color: #fff;
+    width: 50%;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 40px;
+}
+
+#seacrhcontainer #city {
+    border-right: 2px solid #cfcfcf;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+#seacrhcontainer input {
+    border: none;
+    margin-left: 5px;
+}
+
+#seacrhcontainer #restraunt i {
+    margin-right: 10px;
+}
+#Places{
+    border: none;
+}

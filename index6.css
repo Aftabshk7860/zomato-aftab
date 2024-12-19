@@ -1,0 +1,64 @@
+#explore{
+    margin-top: 50px;
+    position: relative;
+    max-width: 1100px;
+    max-height: initial;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#exp-title{
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+#exp-title p{
+    margin: 0px 0px 20px;
+    color: #363636;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+#exp-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+}
+
+#near-me{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    width: 100%;
+    align-items: center;
+    line-height: 90px;
+    border: 1px solid #e8e8e8;
+    padding: 2px 4px;
+    border-radius: 8px;
+    margin-bottom: 19px;
+}
+
+#name h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1c1c1c;
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+#near-me i{
+    margin-right: 30px;
+    font-size: 15px;
+}
